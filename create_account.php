@@ -15,7 +15,7 @@
 			?>
 				<script type="text/javascript">
 					alert("please fill all the fields.");
-					window.location="facebook.htm";
+					window.location="index.html";
 				</script>
 			<?php
 		}
@@ -23,7 +23,7 @@
 			?>
 				<script>
 					alert("password mismatched");
-					window.location="facebook.htm";
+					window.location="index.html";
 				</script>
 			<?php
 
@@ -39,4 +39,4 @@
 		}
 	}
 ?>
-<a href="facebook.htm">Click here Login<a/>
+<a href="index.html">Click here Login<a/>
