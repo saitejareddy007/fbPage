@@ -6,7 +6,7 @@ body{
 	height:1500px;
 }
 #main{
-	height:750px;
+	height:100%;
 	position:relative;
 	display:blocks;
 	margin:0px;
@@ -33,7 +33,7 @@ body{
 	font-family: Helvetica, Arial, sans-serif;
 	position:relative;
 	font-weight:bold;
-	left:175px;
+	left:12%;
 	top:30px;
 }
 .button {
@@ -66,14 +66,23 @@ input{
 }
 #left_body{
 	position:relative;
-	left:175px;
+	left:12%;
 	color:#0e385f;
 	font-family: Helvetica, Arial, sans-serif;
 	word-spacing:-2px;
 	font-weight:bold;
-	width:500px;
+	width:100%;
 	top:20px;
 	font-size:18px
+}
+#right_body{
+	float:right;
+	line-height:29px;
+	position:relative;
+	max-width: 100%;
+	font-family: Helvetica, Arial, sans-serif;
+	right:10%;
+	top:-305px;
 }
 #img{
 	position:relative;
@@ -88,14 +97,6 @@ input{
 	z-index:1;
 	left: 131px;
 	top: 46px;
-}
-#right_body{
-	float:right;
-	line-height:29px;
-	position:relative;
-	font-family: Helvetica, Arial, sans-serif;
-	right:175px;
-	top:-305px;
 }
 
 #form input{
